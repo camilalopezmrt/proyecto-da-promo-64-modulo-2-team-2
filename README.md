@@ -11,7 +11,7 @@ El objetivo es estudiar la evolución de la popularidad de diferentes géneros, 
 
 | Miembro | Rol | Tareas principales |
 |------|-----|------------------|
-| Camila López | Scrum Master / Data Analyst | Organización, tablero Kanban, definición de milestones, API Last.fm, extracción y limpieza de datos y revisión |
+| Camila López | Scrum Master / Data Analyst | Organización, tablero Kanban, definición de milestones, API Last.fm, extracción y limpieza de datos, desarrollo de queries SQL y revisión |
 | María Granero | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets, creación y carga de la base de datos, desarrollo de queries SQL y revisión |
 | Arantxa Barea | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets creación y carga de la base de datos, desarrollo de queries SQL y revisión |
 | Lorena Núñez | Data Analyst | API Last.fm, extracción de datos, apoyo en limpieza y desarrollo de queries SQL y revisión |
