@@ -111,7 +111,7 @@ Cada persona puede configurar sus propios valores localmente sin que queden expu
 ---
 
 ### 3. Ejecución
-1. Ejecutar el **Notebook de extracción y limpieza** para generar los CSV.  
+1. Descargar los **CSV** ya generados.  
 2. Ejecutar el **Notebook de carga a MySQL**, configurando previamente las variables de conexión.  
 3. Realizar el análisis mediante queries SQL en MySQL Workbench o desde Python.  
 
