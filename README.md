@@ -90,12 +90,12 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
 ├─ .gitignore
 ├─ .env.example
 └─ docs_equipo/
-   ├─ Documentos de BBDD y queries/
-   │  ├─ Exportación de resultados/
-   │  ├─ Diagrama entidad_relación (DER).mwb
-   │  ├─ Script queries RhythmIQ.sql
-   │  └─ Script RhythmIQ.sql
-   └─ Documentos de extracción de datos/
+   ├─ Documentos_BBDD_queries/
+   │  ├─ Exportación_resultados/
+   │  ├─ Diagrama_entidad_relación (DER).mwb
+   │  ├─ Script_queries_RhythmIQ.sql
+   │  └─ Schema_RhythmIQ.sql
+   └─ Documentos_extracción_datos/
       ├─ dataset_spotify_tracks.csv
       ├─ dataset_unificado.csv
       ├─ df_lastfm.csv
