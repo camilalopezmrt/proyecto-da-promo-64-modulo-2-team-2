@@ -13,7 +13,7 @@ El objetivo es estudiar la evolución de la popularidad de diferentes géneros, 
 |------|-----|------------------|
 | Camila López | Scrum Master / Data Analyst | Organización, tablero Kanban, definición de milestones, API Last.fm, extracción y limpieza de datos, desarrollo de queries SQL y revisión |
 | María Granero | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets, creación y carga de la base de datos, desarrollo de queries SQL y revisión |
-| Arantxa Barea | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets creación y carga de la base de datos, desarrollo de queries SQL y revisión |
+| Arantxa Barea | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets, creación y carga de la base de datos, desarrollo de queries SQL y revisión |
 | Lorena Núñez | Data Analyst | API Last.fm, extracción de datos, apoyo en limpieza y desarrollo de queries SQL y revisión |
 
 ---
@@ -73,17 +73,40 @@ El proyecto se estructura en **dos notebooks principales y scripts SQL**:
   Incluye:
   - Lectura de los CSV generados  
   - Conexión con MySQL mediante SQLAlchemy  
-  - Volcado de los datos a la base de datos  
-  - Ejecución de queries y análisis  
+  - Volcado de los datos a la base de datos    
 
 - **SQL Scripts – Esquema y queries**  
   Incluye:
-  - `schema.sql`: creación completa de la base de datos y tablas
-  - `queries.sql`: todas las queries utilizadas para análisis y extracción de insights
+  - `Schema_RhythmIQ.sql`: creación completa de la base de datos y tablas
+  - `Script_queries_RhythmIQ.sql`: todas las queries utilizadas para análisis y extracción de insights
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## 🗂️ Estructura del repositorio
+
+```text
+proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
+├─ README.md
+├─ .gitignore
+├─ .env.example
+└─ docs_equipo/
+   ├─ Documentos de BBDD y queries/
+   │  ├─ Exportación de resultados/
+   │  ├─ Diagrama entidad_relación (DER).mwb
+   │  ├─ Script queries RhythmIQ.sql
+   │  └─ Script RhythmIQ.sql
+   └─ Documentos de extracción de datos/
+      ├─ dataset_spotify_tracks.csv
+      ├─ dataset_unificado.csv
+      ├─ df_lastfm.csv
+      ├─ maestro_artistas.csv
+      ├─ Fase1_Extracción_datos.ipynb
+      └─ Fase2_Manipulacion_carga_datos.ipynb
+```
+
+---
+
+## ▶️ Pasos para configurar
 
 ### 1. Requisitos
 - Python 3.9+
@@ -94,26 +117,85 @@ El proyecto se estructura en **dos notebooks principales y scripts SQL**:
   - `spotipy`
   - `sqlalchemy`
   - `pymysql`
+  - `python-dotenv`  
 
 ---
 
-### 2. Seguridad de credenciales (MySQL)
+### 2. Configuración de variables de entorno (APIs y seguridad)
 
-Para evitar exponer credenciales en un repositorio público, la conexión a MySQL se realiza mediante **variables**.
+Para evitar exponer credenciales en un repositorio público, las claves de las APIs **no se incluyen en el repo**.  
+En su lugar, se utiliza un archivo de variables de entorno `.env` local.
 
-En el notebook de carga a MySQL se definen variables para:
-- Usuario de MySQL  
-- Contraseña de MySQL  
-- Host de conexión  
+#### Archivo de ejemplo `.env.example`
+
+```env
+# -----------------------------------------------------------------------------------------------------------------------
+# ARCHIVO DE EJEMPLO DE VARIABLES DE ENTORNO
+# -----------------------------------------------------------------------------------------------------------------------
+# Copiar este archivo a .env y rellenar con tus propias claves de API.
+# -----------------------------------------------------------------------------------------------------------------------
+
+# Clave de API de Spotify
+spotipy_api_key=TU_API_KEY
+
+# Client Secret de Spotify
+spotipy_client_secret=TU_CLIENT_SECRET
+
+# Clave de API de Last.fm
+lastfm_api_key=TU_LASTFM_KEY
+```
+
+#### Pasos para configurar
+
+```bash
+# 1. Copiar .env.example a .env en la raíz del proyecto
+
+# Linux / Mac
+cp .env.example .env
+
+# Windows
+copy .env.example .env
+
+# 2. Abrir .env y rellenar con tus propias claves de API
+#    Ejemplo:
+#    spotipy_api_key=abcd1234
+#    spotipy_client_secret=efgh5678
+#    lastfm_api_key=ijkl9012
+```
+
+- Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.  
+
+> ⚠️ Cada persona debe crear su propio `.env` con sus credenciales.  
+> El archivo `.env` **no se sube al repositorio**, solo `.env.example`.
+
+---
+
+### 3. Seguridad de credenciales (MySQL)
+
+Para evitar exponer credenciales en un repositorio público, la conexión a MySQL se realiza mediante **variables locales**.
+
+```python
+# Ejemplo de configuración de variables locales para MySQL
+mysql_user = "tu_usuario"
+mysql_password = "tu_contraseña"
+mysql_host = "localhost"
+
+```
 
 Cada persona puede configurar sus propios valores localmente sin que queden expuestos en el repositorio.
 
 ---
 
-### 3. Ejecución
-1. Descargar los **CSV** ya generados.  
-2. Ejecutar el **Notebook de carga a MySQL**, configurando previamente las variables de conexión.  
-3. Realizar el análisis mediante queries SQL en MySQL Workbench o desde Python.  
+### 4. Ejecución
+
+```bash
+# 1. Descargar los CSV ya generados (dataset_unificado.csv y maestro_artistas.csv)
+# 2. Configurar .env con las claves de API propias
+# 3. Ejecutar Notebook de extracción y limpieza
+# 4. Ejecutar Notebook de carga a MySQL
+# 5. Analizar los datos ejecutando las queries mediante el Script_queries_RhythmIQ.sql
+
+```
 
 ---
 
@@ -155,4 +237,5 @@ Proyecto académico desarrollado en el marco del bootcamp de **Adalab**.
 Uso educativo.
 
 **Autores:**  
-Camila López · Arantxa Barea · María Granero · Lorena Núñez  
+Camila López · Arantxa Barea · María Granero · Lorena Núñez
+
