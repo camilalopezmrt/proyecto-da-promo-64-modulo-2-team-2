@@ -144,20 +144,21 @@ lastfm_api_key=TU_LASTFM_KEY
 ```
 
 ### Pasos para configurar
+
+1. Copiar `.env.example` a `.env` en la raíz del proyecto:
 ```bash
-# 1. Copiar .env.example a .env en la raíz del proyecto
+   # Linux / Mac
+   cp .env.example .env
+   
+   # Windows
+   copy .env.example .env
+```
 
-# Linux / Mac
-cp .env.example .env
-
-# Windows
-copy .env.example .env
-
-# 2. Abrir .env y rellenar con tus propias claves de API
-#    Ejemplo:
-#    spotipy_api_key=abcd1234
-#    spotipy_client_secret=efgh5678
-#    lastfm_api_key=ijkl9012
+2. Abrir `.env` y rellenar con tus propias claves de API. Ejemplo:
+```
+   spotipy_api_key=abcd1234
+   spotipy_client_secret=efgh5678
+   lastfm_api_key=ijkl9012
 ```
 
 * Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.
