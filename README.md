@@ -101,7 +101,7 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
       ├─ df_lastfm.csv
       ├─ maestro_artistas.csv
       ├─ Fase1_Extracción_datos.ipynb
-      └─ Fase2_Manipulacion_carga_datos.ipynb
+      └─ Fase2_Manipulación_carga_datos.ipynb
 ```
 
 ---
