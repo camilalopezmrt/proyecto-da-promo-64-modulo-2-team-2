@@ -92,7 +92,7 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
 └─ docs_equipo/
    ├─ Documentos_BBDD_queries/
    │  ├─ Exportación_resultados/
-   │  ├─ Diagrama_entidad_relación (DER).mwb
+   │  ├─ Diagrama_entidad_relación_(DER).mwb
    │  ├─ Script_queries_RhythmIQ.sql
    │  └─ Schema_RhythmIQ.sql
    └─ Documentos_extracción_datos/
