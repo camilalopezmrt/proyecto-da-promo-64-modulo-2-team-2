@@ -1,0 +1,239 @@
+año,mes,genero,festival,media_popularidad,media_oyentes,media_reproducciones
+2020,1,hip-hop,"No Festival",0.00,2926,14002
+2020,2,hip-hop,"No Festival",0.00,76,279
+2020,3,hip-hop,Lollapalooza,0.00,501,1855
+2020,4,hip-hop,Coachella,0.00,2454,9044
+2020,5,hip-hop,"No Festival",0.00,244,756
+2020,6,hip-hop,"Primavera Sound",0.00,548,2505
+2020,7,hip-hop,"No Festival",0.00,39,102
+2020,8,hip-hop,"No Festival",0.00,421,963
+2020,9,hip-hop,"No Festival",0.00,217,638
+2020,10,hip-hop,"No Festival",0.00,6598,30243
+2020,11,hip-hop,"No Festival",0.00,9116,33341
+2020,12,hip-hop,"Red Bull Batalla",0.00,271,860
+2021,1,hip-hop,"No Festival",0.00,395,1410
+2021,2,hip-hop,"No Festival",0.00,761,2855
+2021,3,hip-hop,Lollapalooza,0.00,1878,8979
+2021,4,hip-hop,Coachella,0.00,16987,138895
+2021,5,hip-hop,"No Festival",0.00,388,1672
+2021,6,hip-hop,"Primavera Sound",0.00,74543,623677
+2021,7,hip-hop,"No Festival",0.00,87299,658855
+2021,8,hip-hop,"No Festival",0.00,51063,453409
+2021,9,hip-hop,"No Festival",0.00,20999,176531
+2021,10,hip-hop,"No Festival",0.00,153,356
+2021,11,hip-hop,"No Festival",0.00,3409,10389
+2021,12,hip-hop,"Red Bull Batalla",0.00,188897,1902629
+2022,1,hip-hop,"No Festival",0.00,90931,817450
+2022,2,hip-hop,"No Festival",0.02,80143,608546
+2022,3,hip-hop,Lollapalooza,0.00,50856,401076
+2022,4,hip-hop,Coachella,0.00,119593,929314
+2022,5,hip-hop,"No Festival",0.00,67887,517389
+2022,6,hip-hop,"Primavera Sound",0.00,100024,940515
+2022,7,hip-hop,"No Festival",0.00,91169,580599
+2022,8,hip-hop,"No Festival",0.00,89823,682605
+2022,9,hip-hop,"No Festival",0.00,77072,644849
+2022,10,hip-hop,"No Festival",0.00,28394,175081
+2022,11,hip-hop,"No Festival",0.00,45019,365070
+2022,12,hip-hop,"Red Bull Batalla",0.00,89647,982734
+2023,1,hip-hop,"No Festival",0.00,71,233
+2023,2,hip-hop,"No Festival",0.00,109595,1158610
+2023,3,hip-hop,Lollapalooza,0.00,181,695
+2023,4,hip-hop,Coachella,0.00,96384,611585
+2023,5,hip-hop,"No Festival",0.00,59852,433124
+2023,6,hip-hop,"Primavera Sound",0.00,169989,1696245
+2023,7,hip-hop,"No Festival",0.00,48731,429710
+2023,8,hip-hop,"No Festival",0.00,202437,2109895
+2023,9,hip-hop,"No Festival",0.00,182421,1823059
+2023,10,hip-hop,"No Festival",0.00,333472,3879812
+2023,11,hip-hop,"No Festival",0.00,50851,377919
+2023,12,hip-hop,"Red Bull Batalla",0.00,43211,245449
+2024,1,hip-hop,"No Festival",0.00,184146,2134809
+2024,2,hip-hop,"No Festival",0.00,463778,5058418
+2024,3,hip-hop,Lollapalooza,0.00,230866,1830604
+2024,4,hip-hop,Coachella,0.00,367663,3602154
+2024,5,hip-hop,"No Festival",0.00,383995,3757924
+2024,6,hip-hop,"Primavera Sound",0.00,337782,3375250
+2024,7,hip-hop,"No Festival",0.00,440330,4586334
+2024,8,hip-hop,"No Festival",0.00,669460,6823361
+2024,9,hip-hop,"No Festival",0.00,410918,4541515
+2024,10,hip-hop,"No Festival",0.00,1331292,14290355
+2020,1,indie,"No Festival",47.26,67980,502970
+2020,2,indie,"No Festival",54.71,217826,2283735
+2020,3,indie,Lollapalooza,50.67,107068,808729
+2020,4,indie,Coachella,51.51,135209,1495375
+2020,5,indie,"No Festival",51.32,219761,2722619
+2020,6,indie,"Primavera Sound",50.61,83689,1278534
+2020,7,indie,"No Festival",50.69,118192,1162144
+2020,8,indie,"No Festival",53.97,162817,1576927
+2020,9,indie,"No Festival",50.71,115513,1221370
+2020,10,indie,"No Festival",52.16,136230,1369129
+2020,11,indie,"No Festival",51.30,65751,446817
+2020,12,indie,"Red Bull Batalla",49.81,85769,717543
+2021,1,indie,"No Festival",53.34,70261,582008
+2021,2,indie,"No Festival",51.48,59929,566615
+2021,3,indie,Lollapalooza,52.43,75467,647131
+2021,4,indie,Coachella,54.28,126846,1137202
+2021,5,indie,"No Festival",51.09,58706,536866
+2021,6,indie,"Primavera Sound",56.89,208003,2336485
+2021,7,indie,"No Festival",53.88,208183,2642162
+2021,8,indie,"No Festival",55.17,243608,2426243
+2021,9,indie,"No Festival",52.03,85348,803552
+2021,10,indie,"No Festival",53.69,220538,2541679
+2021,11,indie,"No Festival",50.25,57317,432485
+2021,12,indie,"Red Bull Batalla",52.31,105758,1000897
+2022,1,indie,"No Festival",54.39,97742,850695
+2022,2,indie,"No Festival",52.37,102820,945391
+2022,3,indie,Lollapalooza,54.56,84842,859622
+2022,4,indie,Coachella,54.31,152324,1427288
+2022,5,indie,"No Festival",51.83,70583,582864
+2022,6,indie,"Primavera Sound",53.83,97903,923255
+2022,7,indie,"No Festival",56.33,274503,3577169
+2022,8,indie,"No Festival",56.25,180705,1650818
+2022,9,indie,"No Festival",52.73,82041,729370
+2022,10,indie,"No Festival",53.38,85244,1113545
+2022,11,indie,"No Festival",50.29,57950,505920
+2022,12,indie,"Red Bull Batalla",49.00,77501,607492
+2023,1,indie,"No Festival",55.32,39045,297238
+2023,2,indie,"No Festival",57.37,156732,1704803
+2023,3,indie,Lollapalooza,55.43,149541,1692211
+2023,4,indie,Coachella,55.94,129623,1107675
+2023,5,indie,"No Festival",55.63,76816,764609
+2023,6,indie,"Primavera Sound",56.87,166895,1994104
+2023,7,indie,"No Festival",59.46,176339,1866765
+2023,8,indie,"No Festival",60.72,101760,940365
+2023,9,indie,"No Festival",56.06,103210,914971
+2023,10,indie,"No Festival",55.16,70175,735607
+2023,11,indie,"No Festival",54.96,111684,1145849
+2023,12,indie,"Red Bull Batalla",57.23,61412,460340
+2024,1,indie,"No Festival",61.70,105236,949110
+2024,2,indie,"No Festival",58.80,91539,823864
+2024,3,indie,Lollapalooza,55.13,88823,889383
+2024,4,indie,Coachella,58.02,105401,1058544
+2024,5,indie,"No Festival",61.88,278554,3264885
+2024,6,indie,"Primavera Sound",57.14,65254,467680
+2024,7,indie,"No Festival",63.53,222957,2340650
+2024,8,indie,"No Festival",60.38,141362,1525154
+2024,9,indie,"No Festival",59.17,72504,534089
+2024,10,indie,"No Festival",55.12,79207,783993
+2024,11,indie,"No Festival",57.52,60724,497271
+2024,12,indie,"Red Bull Batalla",59.26,40727,262172
+2020,1,latin,"No Festival",59.92,34266,313153
+2020,2,latin,"No Festival",65.45,106357,1124753
+2020,3,latin,Lollapalooza,60.55,49442,391272
+2020,4,latin,Coachella,61.33,36540,291238
+2020,5,latin,"No Festival",60.18,44099,341002
+2020,6,latin,"Primavera Sound",59.00,39250,318225
+2020,7,latin,"No Festival",59.59,56286,501127
+2020,8,latin,"No Festival",60.45,41007,351578
+2020,9,latin,"No Festival",60.74,38863,282471
+2020,10,latin,"No Festival",57.47,40248,379050
+2020,11,latin,"No Festival",65.41,82616,830383
+2020,12,latin,"Red Bull Batalla",59.87,31795,351433
+2021,1,latin,"No Festival",55.34,21725,166820
+2021,2,latin,"No Festival",60.36,43514,474131
+2021,3,latin,Lollapalooza,61.29,50549,436528
+2021,4,latin,Coachella,59.72,35814,341972
+2021,5,latin,"No Festival",63.08,54436,578948
+2021,6,latin,"Primavera Sound",58.26,57852,553675
+2021,7,latin,"No Festival",60.34,49589,448672
+2021,8,latin,"No Festival",61.15,37101,347438
+2021,9,latin,"No Festival",60.10,53339,440400
+2021,10,latin,"No Festival",62.30,62619,655270
+2021,11,latin,"No Festival",58.55,36258,512838
+2021,12,latin,"Red Bull Batalla",61.48,60910,728758
+2022,1,latin,"No Festival",60.33,41336,374169
+2022,2,latin,"No Festival",61.24,49516,469707
+2022,3,latin,Lollapalooza,59.67,118593,1536048
+2022,4,latin,Coachella,61.03,58211,750093
+2022,5,latin,"No Festival",67.69,162157,2054898
+2022,6,latin,"Primavera Sound",56.96,26530,265575
+2022,7,latin,"No Festival",61.74,70511,888550
+2022,8,latin,"No Festival",60.84,60677,631564
+2022,9,latin,"No Festival",61.32,55632,650200
+2022,10,latin,"No Festival",60.10,53160,540135
+2022,11,latin,"No Festival",60.72,50353,452647
+2022,12,latin,"Red Bull Batalla",59.89,35640,335017
+2023,1,latin,"No Festival",64.05,66577,805006
+2023,2,latin,"No Festival",65.02,98688,1017908
+2023,3,latin,Lollapalooza,63.09,80624,881410
+2023,4,latin,Coachella,63.60,65870,780700
+2023,5,latin,"No Festival",63.63,41232,428652
+2023,6,latin,"Primavera Sound",64.71,74653,919558
+2023,7,latin,"No Festival",64.51,72419,751816
+2023,8,latin,"No Festival",65.53,73584,795310
+2023,9,latin,"No Festival",62.49,41325,410489
+2023,10,latin,"No Festival",69.21,98324,1070082
+2023,11,latin,"No Festival",65.16,44486,511146
+2023,12,latin,"Red Bull Batalla",63.00,50888,677485
+2024,1,latin,"No Festival",61.75,45993,579517
+2024,2,latin,"No Festival",62.78,50750,552476
+2024,3,latin,Lollapalooza,65.27,35777,355637
+2024,4,latin,Coachella,65.47,59914,664206
+2024,5,latin,"No Festival",64.76,35539,406502
+2024,6,latin,"Primavera Sound",67.00,66208,732776
+2024,7,latin,"No Festival",63.44,33425,348627
+2024,8,latin,"No Festival",67.97,74443,791704
+2024,9,latin,"No Festival",67.48,37698,404367
+2024,10,latin,"No Festival",63.47,34952,377557
+2024,11,latin,"No Festival",66.34,48189,514201
+2024,12,latin,"Red Bull Batalla",65.89,30586,364372
+2020,1,pop,"No Festival",59.67,213661,4146928
+2020,2,pop,"No Festival",64.42,309657,14310417
+2020,3,pop,Lollapalooza,62.37,374275,5257925
+2020,4,pop,Coachella,57.15,90762,860774
+2020,5,pop,"No Festival",60.33,185468,3606375
+2020,6,pop,"Primavera Sound",61.74,162640,3034392
+2020,7,pop,"No Festival",59.16,128038,2394256
+2020,8,pop,"No Festival",60.09,165566,8641106
+2020,9,pop,"No Festival",60.67,117830,4636438
+2020,10,pop,"No Festival",62.28,278798,4298728
+2020,11,pop,"No Festival",62.07,228395,9969864
+2020,12,pop,"Red Bull Batalla",59.41,150968,1883982
+2021,1,pop,"No Festival",64.00,160980,1781092
+2021,2,pop,"No Festival",60.85,294492,3773063
+2021,3,pop,Lollapalooza,61.65,137688,2597017
+2021,4,pop,Coachella,61.21,215245,3948279
+2021,5,pop,"No Festival",63.19,281442,5530348
+2021,6,pop,"Primavera Sound",59.90,286004,8915108
+2021,7,pop,"No Festival",58.30,102911,3962197
+2021,8,pop,"No Festival",62.72,175753,2926578
+2021,9,pop,"No Festival",59.83,227288,7462384
+2021,10,pop,"No Festival",59.83,177421,3791171
+2021,11,pop,"No Festival",62.35,232152,3244007
+2021,12,pop,"Red Bull Batalla",60.82,99500,1523367
+2022,1,pop,"No Festival",62.00,147199,1927146
+2022,2,pop,"No Festival",61.32,109768,2981531
+2022,3,pop,Lollapalooza,60.97,111238,1646748
+2022,4,pop,Coachella,60.65,91485,1322667
+2022,5,pop,"No Festival",63.41,185098,3359535
+2022,6,pop,"Primavera Sound",63.06,264143,20693851
+2022,7,pop,"No Festival",64.72,294412,8629147
+2022,8,pop,"No Festival",65.71,317951,7003388
+2022,9,pop,"No Festival",62.56,163072,3599099
+2022,10,pop,"No Festival",64.02,240963,7134306
+2022,11,pop,"No Festival",62.77,134464,2354955
+2022,12,pop,"Red Bull Batalla",63.35,114253,5181929
+2023,1,pop,"No Festival",65.58,271506,6868840
+2023,2,pop,"No Festival",62.90,183540,2502322
+2023,3,pop,Lollapalooza,66.35,337497,29218495
+2023,4,pop,Coachella,64.11,161007,9670100
+2023,5,pop,"No Festival",65.82,271409,5152769
+2023,6,pop,"Primavera Sound",68.04,120855,2754182
+2023,7,pop,"No Festival",67.70,360666,17664964
+2023,8,pop,"No Festival",64.70,148249,14739599
+2023,9,pop,"No Festival",69.95,582652,15129336
+2023,10,pop,"No Festival",65.23,239793,5440843
+2023,11,pop,"No Festival",69.12,301040,18526448
+2023,12,pop,"Red Bull Batalla",66.00,174800,3886241
+2024,1,pop,"No Festival",66.13,172523,3024304
+2024,2,pop,"No Festival",67.00,208548,3115309
+2024,3,pop,Lollapalooza,71.29,472694,13763213
+2024,4,pop,Coachella,69.02,375234,9130148
+2024,5,pop,"No Festival",69.80,270057,6762609
+2024,6,pop,"Primavera Sound",71.57,517578,11443862
+2024,7,pop,"No Festival",68.56,165421,26477503
+2024,8,pop,"No Festival",73.14,530989,9649999
+2024,9,pop,"No Festival",68.07,187756,3723817
+2024,10,pop,"No Festival",69.12,234680,4949656
+2024,11,pop,"No Festival",66.50,73362,3917327
+2024,12,pop,"Red Bull Batalla",71.21,141116,2512866
