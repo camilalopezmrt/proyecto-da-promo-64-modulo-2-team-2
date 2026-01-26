@@ -123,12 +123,10 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
 
 ### 2. Configuración de variables de entorno (APIs y seguridad)
 
-Para evitar exponer credenciales en un repositorio público, las claves de las APIs **no se incluyen en el repo**.  
-En su lugar, se utiliza un archivo de variables de entorno `.env` local.
+Para evitar exponer credenciales en un repositorio público, las claves de las APIs no se incluyen en el repo. En su lugar, se utiliza un archivo de variables de entorno `.env` local.
 
-#### Archivo de ejemplo `.env.example`
-
-```env
+### Archivo de ejemplo `.env.example`
+```bash
 # -----------------------------------------------------------------------------------------------------------------------
 # ARCHIVO DE EJEMPLO DE VARIABLES DE ENTORNO
 # -----------------------------------------------------------------------------------------------------------------------
@@ -145,8 +143,7 @@ spotipy_client_secret=TU_CLIENT_SECRET
 lastfm_api_key=TU_LASTFM_KEY
 ```
 
-#### Pasos para configurar
-
+### Pasos para configurar
 ```bash
 # 1. Copiar .env.example a .env en la raíz del proyecto
 
@@ -163,26 +160,31 @@ copy .env.example .env
 #    lastfm_api_key=ijkl9012
 ```
 
-- Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.  
+* Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.
 
-> ⚠️ Cada persona debe crear su propio `.env` con sus credenciales.  
-> El archivo `.env` **no se sube al repositorio**, solo `.env.example`.
+⚠️**Cada persona debe crear su propio `.env` con sus credenciales. El archivo `.env` no se sube al repositorio, solo `.env.example`.**
 
 ---
 
 ### 3. Seguridad de credenciales (MySQL)
 
-Para evitar exponer credenciales en un repositorio público, la conexión a MySQL se realiza mediante **variables locales**.
-
+Para evitar exponer credenciales en un repositorio público, la conexión a MySQL se realiza mediante variables locales.
 ```python
 # Ejemplo de configuración de variables locales para MySQL
 mysql_user = "tu_usuario"
 mysql_password = "tu_contraseña"
 mysql_host = "localhost"
-
 ```
 
 Cada persona puede configurar sus propios valores localmente sin que queden expuestos en el repositorio.
+
+## 4. Ejecución
+
+1. Descargar los CSV ya generados (dataset_unificado.csv y maestro_artistas.csv)
+2. Configurar .env con las claves de API propias
+3. Ejecutar Notebook de extracción y limpieza
+4. Ejecutar Notebook de carga a MySQL
+5. Analizar los datos ejecutando las queries mediante el Script_queries_RhythmIQ.sql
 
 ---
 
