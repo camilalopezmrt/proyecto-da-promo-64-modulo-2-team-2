@@ -46,6 +46,7 @@ ORDER BY genero, año DESC, media_oyentes DESC;
 
 
 /* 1.3 Popularidad algorítmica vs consumo real */
+
 SELECT
     genre_extracted AS genero,
     ROUND(AVG(playcount)) AS media_reproducciones,
