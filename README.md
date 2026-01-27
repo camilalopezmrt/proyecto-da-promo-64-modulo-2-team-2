@@ -89,6 +89,7 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
 ├─ README.md
 ├─ .gitignore
 ├─ .env.example
+├─ Presentación_análisis_movimiento_musica_streaming_2020_2024.pdf
 └─ docs_equipo/
    ├─ Documentos_BBDD_queries/
    │  ├─ Exportación_resultados/
