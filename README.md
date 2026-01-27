@@ -124,7 +124,7 @@ proyecto-da-promo-64-modulo-2-team-2/   ← raíz del repo
 
 ### 2. Configuración de variables de entorno (APIs y seguridad)
 
-Para evitar exponer credenciales en un repositorio público, las claves de las APIs no se incluyen en el repo. En su lugar, se utiliza un archivo de variables de entorno `.env` local.
+Para proteger credenciales en un repositorio público, **las claves de las APIs no se incluyen**. Se utiliza un archivo local `.env` para cargar las variables de entorno.
 
 ### Archivo de ejemplo `.env.example`
 ```bash
@@ -162,7 +162,7 @@ lastfm_api_key=TU_LASTFM_KEY
    lastfm_api_key=ijkl9012
 ```
 
-* Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.
+3. Ejecutar los notebooks normalmente; el código cargará las variables con `python-dotenv` y `os.getenv()`.
 
 ⚠️**Cada persona debe crear su propio `.env` con sus credenciales. El archivo `.env` no se sube al repositorio, solo `.env.example`.**
 
@@ -170,7 +170,7 @@ lastfm_api_key=TU_LASTFM_KEY
 
 ### 3. Seguridad de credenciales (MySQL)
 
-Para evitar exponer credenciales en un repositorio público, la conexión a MySQL se realiza mediante variables locales.
+La conexión a MySQL se realiza mediante variables locales:
 ```python
 # Ejemplo de configuración de variables locales para MySQL
 mysql_user = "tu_usuario"
