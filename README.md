@@ -1,4 +1,4 @@
-# 🎵 Proyecto Módulo 2 – MusicStream
+# 🎵 Proyecto Módulo 2 – RhythmIQ
 
 **Análisis de Popularidad de Canciones en la Era Digital – Proyecto Módulo 2**
 
