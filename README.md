@@ -181,24 +181,29 @@ Cada persona puede configurar sus propios valores localmente sin que queden expu
 
 ## 4. Ejecución
 
-1. Descargar los CSV ya generados (dataset_unificado.csv y maestro_artistas.csv)
-2. Configurar .env con las claves de API propias
-3. Ejecutar Notebook de extracción y limpieza
-4. Ejecutar Notebook de carga a MySQL
-5. Analizar los datos ejecutando las queries mediante el Script_queries_RhythmIQ.sql
+El proyecto ofrece dos formas de trabajar con los datos: ejecutar todo desde cero o usar los CSVs ya generados para explorar los resultados directamente.
 
----
+### Opción 1 – Ejecutar todo desde cero
+1. Configurar un archivo `.env` con tus claves de API propias para Spotify y Last.fm.
+2. Ejecutar el **Notebook de extracción de datos**. Este Notebook:
+   - Realiza todas las llamadas a las APIs.
+   - Procesa y limpia los datos.
+   - Hace matching y normalización entre las fuentes.
+   - Genera los CSVs finales (`dataset_unificado.csv` y `maestro_artistas.csv`).
+3. Ejecutar el **Notebook de manipulación de la carga de datos**, que:
+   - Lee los CSVs generados.
+   - Conecta con MySQL mediante SQLAlchemy.
+   - Crea la base de datos ejecutando primero `Schema_RhythmIQ.sql`.
+   - Vuelca los datos en la base de datos.
+4. Analizar los datos ejecutando las queries mediante `Script_queries_RhythmIQ.sql`.
 
-### 4. Ejecución
-
-```bash
-# 1. Descargar los CSV ya generados (dataset_unificado.csv y maestro_artistas.csv)
-# 2. Configurar .env con las claves de API propias
-# 3. Ejecutar Notebook de extracción y limpieza
-# 4. Ejecutar Notebook de carga a MySQL
-# 5. Analizar los datos ejecutando las queries mediante el Script_queries_RhythmIQ.sql
-
-```
+### Opción 2 – Explorar resultados sin repetir la extracción
+1. Descargar los CSVs finales (`dataset_unificado.csv` y `maestro_artistas.csv`) y mantenerlos en la **misma carpeta** que el Notebook de manipulación y carga de datos.
+2. Ejecutar el **Notebook de manipulación de la carga de datos**:
+   - Conectar con MySQL mediante SQLAlchemy.
+   - Crear la base de datos ejecutando primero `Schema_RhythmIQ.sql`.
+   - Volcar los CSVs en la base de datos.
+3. Ejecutar el **Script_queries_RhythmIQ.sql** para realizar los análisis y explorar los resultados directamente.
 
 ---
 
@@ -219,8 +224,10 @@ Cada persona puede configurar sus propios valores localmente sin que queden expu
 - Paralelización de llamadas a APIs para reducir tiempos de extracción  
 - Inclusión de más géneros y subgéneros  
 - Análisis de tendencias emergentes  
-- Automatización completa del pipeline de datos  
+- Automatización completa del pipeline de datos 
+- Mejor manejo de Hip-Hop: normalizar subgéneros para reflejar mejor el impacto real, ya que Spotify asigna géneros a los artistas y no a los tracks. 
 - Ampliación de visualizaciones interactivas en Tableau  
+
 
 ---
 
