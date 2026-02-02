@@ -14,7 +14,6 @@ El objetivo es estudiar la evolución de la popularidad de diferentes géneros, 
 | Camila López | Scrum Master / Data Analyst | Organización, tablero Kanban, definición de milestones, API Last.fm, extracción y limpieza de datos, desarrollo de queries SQL y revisión |
 | María Granero | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets, creación y carga de la base de datos, desarrollo de queries SQL y revisión |
 | Arantxa Barea | Data Analyst | API Spotify, extracción de datos, integración y validación de datasets, creación y carga de la base de datos, desarrollo de queries SQL y revisión |
-| Lorena Núñez | Data Analyst | API Last.fm, extracción de datos, apoyo en limpieza y desarrollo de queries SQL y revisión |
 
 ---
 
@@ -252,7 +251,7 @@ Camila López · Arantxa Barea · María Granero*
 
 Este trabajo ha sido realizado de forma colaborativa por:
 
-* **Arantxa Barea** *
+* **Arantxa Barea**
   * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/arantxa-barea)
   * [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/arantxa-90)
 
