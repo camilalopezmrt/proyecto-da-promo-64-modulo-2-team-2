@@ -247,16 +247,15 @@ Proyecto académico desarrollado en el marco del bootcamp de **Adalab**.
 Uso educativo.
 
 **Autoras:**  
-Camila López · Arantxa Barea · María Granero*
 
 Este trabajo ha sido realizado de forma colaborativa por:
 
 * **Arantxa Barea**
-  * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/arantxa-barea)
+  * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/arantxa-barea)
   * [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/arantxa-90)
 
 * **Camila López**
-  * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](www.linkedin.com/in/camila-adriana-lopez-martin)
+  * [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camila-adriana-lopez-martin)
   * [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/camilalopezmrt)
 
 * **María Granero**
