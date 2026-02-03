@@ -2,7 +2,7 @@
 
 **Análisis de Popularidad de Canciones en la Era Digital – Proyecto Módulo 2**
 
-Proyecto de análisis de datos musicales desarrollado por el Equipo 2 formado por **Camila López, Arantxa Barea, María Granero y Lorena Núñez**.  
+Proyecto de análisis de datos musicales desarrollado por el Equipo 2 formado por **Camila López, Arantxa Barea y María Granero**.  
 El objetivo es estudiar la evolución de la popularidad de diferentes géneros, artistas, colaboraciones y tendencias globales utilizando datos de **Spotify** y **Last.fm** entre 2020 y 2024.
 
 ---
